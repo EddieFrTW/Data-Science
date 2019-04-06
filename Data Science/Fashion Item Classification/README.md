@@ -9,7 +9,7 @@ The images data have already transform into pixel value from 0(white) to
 ### Data Discription ###
 There are 784 attributes for one instance, which represesnt the grayscale of
 the 28x28 image<br>
-Pixel: from 0(white) to 255(Black)
+Pixel: from 0(white) to 255(Black)a
 
 ### Evaluation ###
 It's evalutaed by **Mean F1-Score**<br>
