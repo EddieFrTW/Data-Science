@@ -1,4 +1,4 @@
-##K-core decomposition##
+# K-core decomposition
 ### Task ###
 Given a undirected graph and find the largest core of the graph within 30 sec. <br>
 ※ Largest core mean a core which has the largest number of nodes

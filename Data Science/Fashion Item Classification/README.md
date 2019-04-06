@@ -1,4 +1,4 @@
-##Buy Less, Choose Well! Fashion Item Classification##
+# Buy Less, Choose Well! Fashion Item Classification
 ### Task ###
 Preditct whether the images are belong to which kind of categories.<br>
 The images data have already transform into pixel value from 0(white) to
@@ -13,4 +13,6 @@ Pixel: from 0(white) to 255(Black)
 
 ### Evaluation ###
 It's evalutaed by **Mean F1-Score**<br>
-$$\frac{x+y}{2}$$
+ $$F1 \ score = 2\frac{precision*recall}{precision+recall}$$, where<br>
+ $$precision = \frac{True \ Positive}{True \ Positive+False \ Positive}$$ 
+ $$recall = \frac{True \ Positive}{True \ Positive+False \ Negative}$$ 

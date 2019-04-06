@@ -1,4 +1,4 @@
-##If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart: Text Sentiment Prediction##
+# If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart: Text Sentiment Prediction
 ### Task ###
 Predict sentiment for given tweets in the **sentiment140**
 dataset. It contains 1,600,000 tweets, 80% for training,
@@ -20,4 +20,4 @@ NO_QUERY.<br>
 
 ### Evaluation ###
 It's evalutaed by **MSE(Mean Square Error)**<br>
-$$\frac{x+y}{2}$$
+$$\sqrt{ \frac{1}{n}\sum^{n}_{i=1}(\overline{y}_i-y_i)^2 }$$

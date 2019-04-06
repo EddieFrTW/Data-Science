@@ -1,4 +1,4 @@
-## Money Brings Satisfaction But Not Happiness: Income Prediction ##
+# Money Brings Satisfaction But Not Happiness: Income Prediction
 ### Task ###
 Predict whether income exceeds $50K/yr based on
 census data.<br>
@@ -28,5 +28,7 @@ Unmarried.<br>
 **Native-country**<br>
 ### Evaluation ###
 It's evalutaed by **F1 score**<br>
-$$\frac{x+y}{2}$$
+ $$F1 \ score = 2\frac{precision*recall}{precision+recall}$$, where<br>
+ $$precision = \frac{True \ Positive}{True \ Positive+False \ Positive}$$ 
+ $$recall = \frac{True \ Positive}{True \ Positive+False \ Negative}$$ 
 
